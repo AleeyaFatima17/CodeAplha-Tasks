@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CodeAlpha Image Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>CodeAlpha Creative Gallery</h1>
+        <p>Explore • Filter • View</p>
+    </header>
+
+    <main>
+        <div class="filters">
+
+    <button class="filter active" data-category="all">
+        All
+    </button>
+
+    <button class="filter" data-category="Cars">
+        Cars
+    </button>
+    
+    <button class="filter" data-category="Suns">
+       Suns
+    </button>
+
+    <button class="filter" data-category="Butterflies">
+        Butterflies
+    </button>
+
+    <button class="filter" data-category="Cup Cakes">
+       Cup Cakes
+    </button>
+
+    <button class="filter" data-category="bunnies">
+       bunnies
+    </button>
+
+    <button class="filter" data-category="Crafty Bloom">
+       Crafty Bloom
+    </button>
+
+</div>
+
+        <div class="gallery">
+
+            <img src="images/image1.png" 
+            data-category="Cars"
+            alt="Cars">
+            <img src="images/image7.png" 
+            data-category="Cars"
+            alt="Cars">
+            <img src="images/image8.png" 
+            data-category="Cars"
+            alt="Cars">
+            <img src="images/image2.png" 
+            data-category="Suns"
+            alt="Suns">
+            <img src="images/image9.png" 
+            data-category="Suns"
+            alt="Suns">
+            <img src="images/image3.png" 
+            data-category="Butterflies"
+            alt="Butterflies">
+            <img src="images/image10.png" 
+            data-category="Butterflies"
+            alt="Butterflies">
+            <img src="images/image11.png" 
+            data-category="Butterflies"
+            alt="Butterflies">
+            <img src="images/image4.png" 
+            data-category="Cup Cakes"
+            alt="Cup Cakes">
+            <img src="images/image12.png" 
+            data-category="Cup Cakes"
+            alt="Cup Cakes">
+            <img src="images/image13.png" 
+            data-category="Cup Cakes"
+            alt="Cup Cakes">
+            <img src="images/image14.png" 
+            data-category="Cup Cakes"
+            alt="Cup Cakes">
+            <img src="images/image5.png" 
+            data-category="bunnies"
+            alt="bunnies">
+            <img src="images/image15.png" 
+            data-category="bunnies"
+            alt="bunnies">
+            <img src="images/image16.png" 
+            data-category="bunnies"
+            alt="bunnies">
+            <img src="images/image17.png" 
+            data-category="bunnies"
+            alt="bunnies">
+            <img src="images/image6.png" 
+            data-category="Crafty Bloom"
+            alt="Crafty Bloom">
+            <img src="images/image18.png" 
+            data-category="Crafty Bloom"
+            alt="Crafty Bloom">
+        </div>
+
+    </main>
+    <footer>
+    <p>© 2026 CodeAlpha Image Gallery | Frontend Development Internship</p>
+</footer>
+    <!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+
+    <span class="close" id="close">&times;</span>
+
+    <button class="prev" id="prev">&#10094;</button>
+
+    <img id="lightboxImage" src="" alt="Large Gallery Image">
+
+    <button class="next" id="next">&#10095;</button>
+
+</div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
